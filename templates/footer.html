@@ -1,0 +1,63 @@
+<!-- contact footer -->
+<section id="contact" class="s-contact">
+    <div class="row_b section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead subhead--light">Свяжитесь с нами</h3>
+            <h1 class="display-1 display-1--light">Давайте сделаем что-нибудь классное вместе!</h1>
+        </div>
+    </div>
+    <div class="row_b">
+        <div class="col-full contact-main" data-aos="fade-up">
+            <p>
+            <a href="mailto:aspirpd@gmal.com" class="contact-email">aspirpd@gmal.com</a>
+            <span class="contact-number">+7 950-879-08-81</span>
+            </p>
+        </div>
+    </div>
+    <div class="row_b">
+        <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+            <h3 class="subhead subhead--light">Где нас найти?</h3>
+            <p class="contact-address">
+                ул. Карла Маркса, д. 23<br>
+                Курская область, Курск<br>
+                305004, РФ
+            </p>
+        </div>
+        <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+            <h3 class="subhead subhead--light">Присоединяйтесь к нам в соцсетях!</h3>
+            <ul class="contact-social">
+                <li>
+                    <a href="#0"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fab fa-vk"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fab fa-telegram"></i></a>
+                </li>
+            </ul>
+            <div class="contact-subscribe">
+                <form id="mc-form" class="group mc-form" novalidate="true">{% csrf_token %}
+                    <input type="email" value="{{ request.POST.email }}" name="{{ form.email.name}}" class="email" id="mc-email" placeholder="Введите свой e-mail" required="">
+                    <input type="submit" name="subscribe" value="Подписаться!">
+                    <label for="mc-email" class="subscribe-message"></label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="cl-go-top">
+        <a class="js-scroll-trigger float" title="Back to Top" href="#top"><i class="fas fa-angle-double-up" aria-hidden="true"></i></a>
+    </div>
+    <div class="row_b">
+        <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+            <h3 class="subhead subhead--light">Спасибо / Thanks</h3>
+            <h3 class="subhead subhead--light">за внимание / for attention</h3>
+        </div>
+    </div>
+</section>

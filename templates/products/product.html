@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section id='about' class="s-c_products light-gray">
+    <div class="row_b section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Информация</h3>
+            <h1 class="display-1">Цены и описание продукта приведены в ориентировочном варианте. Вы всегда можете связаться с нами по телефону или по почте для выяснения подробностей</h1>
+        </div>
+    </div> <!-- end section-header -->
+    <div class="row_b c_products-list block-1-2 block-m-1-2 block-tab-full">
+        <div class="col-block c_products-item " data-aos="fade-up">
+            <div class="c_products-text">
+                {% for image_item in products.productimage_set.all %}
+                    <img class="tablet float" src="{{ image_item.image.url }}"/>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-block c_products-item" data-aos="fade-up">
+            <div class="c_products-icon  c_products-icon--illustration">
+                {{ products.price }} <i class="fas fa-ruble-sign"></i>
+            </div>
+            <div class="c_products-text">
+                <h3 class="h4">{{ products.name }}</h3>
+                <p>{{ products.description }}</p>
+            </div>
+        </div>
+    </div> <!-- end c_products-list -->
+</section> <!-- end s-c_products -->
+
+<!-- preloader -->
+<div id="preloader">
+    <div id="loader">
+    </div>
+</div>
+
+{% endblock %}

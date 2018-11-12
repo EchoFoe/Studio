@@ -1,0 +1,489 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- home -->
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="../../static/images/hero-bg_main.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+    <div class="shadow-overlay"></div>
+    <div class="home-content">
+        <div class="row_b home-content__main">
+            <h1>
+            Сложные веб-проекты<br>
+                помогающие развивать Ваш <span class="text-primary">бизнес</span>. Сегодня!
+            </h1>
+            <p>
+            Мы создаем нешаблонные проекты <br>
+            и превращаем Ваш бизнес в эффективный результат
+            </p>
+        </div>
+    </div>
+    <ul class="home-sidelinks">
+        <li><a class="js-scroll-trigger" href="#services">Наши услуги<span>Что мы делаем?</span></a></li>
+        <li><a class="js-scroll-trigger" href="#products">Цены на продукцию<span>Сколько?</span></a></li>
+        <li><a  class="js-scroll-trigger" href="#contact">Контакты<span>Свяжитесь</span></a></li>
+    </ul>
+    <ul class="home-social">
+        <li class="home-social-title">Присоединяйтесь!</li>
+        <li><a href="#0">
+            <i class="fab fa-facebook"></i>
+            <span class="home-social-text">Facebook</span>
+        </a></li>
+        <li><a href="#0">
+            <i class="fab fa-twitter"></i>
+            <span class="home-social-text">Twitter</span>
+        </a></li>
+        <li><a href="#0">
+            <i class="fab fa-Instagram"></i>
+            <span class="home-social-text">Instagram</span>
+        </a></li>
+        <li><a href="#0">
+            <i class="fab fa-vk"></i>
+            <span class="home-social-text">Vk</span>
+        </a></li>
+        <li><a href="#0">
+            <i class="fab fa-telegram"></i>
+            <span class="home-social-text">Telegram</span>
+        </a></li>
+    </ul>
+    <a href="#services" class="home-scroll js-scroll-trigger float">
+        <span class="home-scroll__text">Крути вниз</span>
+        <span class="home-scroll__icon"></span>
+    </a>
+</section>
+
+<!-- services -->
+<section id='services' class="s-about">
+    <div class="row_b section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Что мы делаем?</h3>
+            <h1 class="display-1">У нас есть все необходимое для запуска и развития Вашего бизнеса. Уже сегодня мы сможем делать его более эффективным.</h1>
+        </div>
+    </div>
+    <div class="row_b" data-aos="fade-up">
+        <div class="col-full">
+            <p class="lead">
+            Студия ведет предварительные работы на тестовом сервере, доступ к которому имеют только наши сотрудники и ответственные представители со стороны Вашей компании. Наш рабочий процесс предполагает несколько основных этапов. Каждый из этих этапов прорабатывается отдельным специалистом в своей области.
+            </p>
+        </div>
+    </div> <!-- end about-desc -->
+    <div class="row_b">
+        <div class="about-process process block-1-2 block-tab-full">
+            <div class="process__vline-left"></div>
+            <div class="process__vline-right"></div>
+            <div class="col-block process__col" data-item="1" data-aos="fade-up">
+                <div class="process__text">
+                    <h4>Аналитика</h4>
+                    <p>
+                    Цель этого этапа - выявление всех требований к дизайну и технологической основе проекта для Вашей целевой аудитории, а также определение целей и задач веб-ресурса. Составление подробного плана разработки проекта.
+                    </p>
+                </div>
+            </div>
+            <div class="col-block process__col" data-item="2" data-aos="fade-up">
+                <div class="process__text">
+                    <h4>Дизайн</h4>
+                    <p>
+                    Мы прекрасно понимаем, что необходиым условием эффективного веб-ресурса - это интуитивно понятная оргназицая материала и продуманная навигация. Поэтому на данном этапе наши специалисты продумывают и создают макет проекта, помогающий индентифицировать решение, которое наилучшим образом представят функциональные возможности и удовлетворит запросам Вашей целевой аудитории.
+                    </p>
+                </div>
+            </div>
+            <div class="col-block process__col" data-item="3" data-aos="fade-up">
+                <div class="process__text">
+                    <h4>Разработка функционала и тестирование</h4>
+                    <p>
+                   На основании утвержденного технического задания (ТЗ) и концепции дизайна наша WebStudio разрабатывает оптимальную структуру базы данных, создадут и настроят все интерактивные сервисы. Наша команда наполнит контентом баз данных сайта. При необходимости примем участие в написании, стилистической обработке и переводе текстовых материалов. На этом этапе параллельно будет вестись разработка механизмов и интерфейсов системы администрирования Вашего будущего веб-ресурса. На завершении данного этапа работа будет представлена на тестирование сотрудникам Вашей компании. Проект сдается.
+                    </p>
+                </div>
+            </div>
+            <div class="col-block process__col" data-item="4" data-aos="fade-up">
+                <div class="process__text">
+                    <h4>SEO - Продвижение</h4>
+                    <p>
+                    При необходимости наша команда предоставит Вам полный комплекс мер для повышения позиций веб-ресурса в результатах поисковых систем по заранее отобранным запросам. Проще говоря, чем выше сайт в ТОПе поисковых систем, тем больший трафик у него будет. Мы рекомендуем по наиболее важным запросам находиться в ТОП-5 результатов поиска.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- end process -->
+    </div> <!-- end about-stats -->
+</section> <!-- end s-about -->
+
+<!-- services -->
+<section id='about' class="s-services light-gray">
+    <div class="row_b section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Кто мы?</h3>
+            <h1 class="display-1">Мы - команда из креативных людей, ориентированных на проектирование и создание веб-проектов с красивым дизайном и эффективным функционалом.</h1>
+        </div>
+    </div> <!-- end section-header -->
+    <div class="row_b" data-aos="fade-up">
+        <div class="col-full">
+            <p class="lead">
+            Наша команда включает в себя разных специалистов: дизайнера, оптимизатора, веб-разработчика, копирайтера, верстальщика и других. Все они качественно и грамотно работают над выполнением проекта, эффективно применяя свои профессиональные навыки, что позволяет на выходе получать действительно качественный и надежный проудкт.
+            </p>
+        </div>
+    </div> <!-- end about-desc -->
+    <div class="testimonials-wrap" data-aos="fade-up">
+        <div class="row_b">
+            <div class="col-full testimonials-header">
+                <h2 class="h1">Наша великолепная команда</h2>
+            </div>
+        </div>
+
+        <div class="row_b testimonials">
+            <div class="col-full testimonials__slider">
+                <div class="testimonials__slide">
+                    <img src="../../static/images/avatars/fullstack_dev.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author">
+                        Станислав Анипин
+                        <span>Full-Stack Web Developer</span>
+                    </div>
+                    <p>Квалифицированный специалист, принимающий активное участие во всех этапах разработки веб-приложений, начиная от серверной логики и ее реализации с помощью различных технологий и фреймворков, и заканчивая клиентским кодом, работающим непосредственно в части интерфейса.</p>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <img src="../../static/images/avatars/designer_dev.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author">
+                        Полина Агишева
+                        <span>Web Designer</span>
+                    </div>
+                    <p>Этот специалист занимается оформлением проектов: разрабатывает дизайн сайтов, промо-страниц, лэндингов, электронных презентаций. Она создаёт логотипы, баннеры, инфографику и другие графические элементы страницы, продумывает размещение текста.
+                    </p>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <img src="../../static/images/avatars/frontend_dev.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author">
+                        Алексей Вораш
+                        <span>Front-End Web Developer</span>
+                    </div>
+                    <p>Это наш веб-разработчик, который занимается разработкой Вашего пользовательского интерфейса. Его главная задача - сделать максимально удобным взаимодействие пользователей с сайтом или веб-приложением.
+                    </p>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <img src="../../static/images/avatars/seo_dev.jpg" alt="Author image" class="testimonials__avatar">
+                    <div class="testimonials__author">
+                        Ева Солдатова
+                        <span>Seo</span>
+                    </div>
+                    <p>Данный специалист осуществляет комплекс мер по внутренней и внешней оптимизации для поднятия позиций веб-ресурса в результатах выдачи поисковых систем по определённым запросам пользователей, с целью увеличения сетевого трафика (для информационных ресурсов) и потенциальных клиентов (для коммерческих ресурсов) и последующей монетизации этого трафика.</p>
+                </div> <!-- end testimonials__slide -->
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end testimonials-wrap -->
+    <div class="row_b services-list block-1-3 block-m-1-2 block-tab-full">
+        <div class="col-block service-item " data-aos="fade-up">
+            <div class="service-icon service-icon--brand-identity">
+                <i class="fas fa-fingerprint"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h4">Brand Identity</h3>
+                <p>
+                Точно так же, как и Ваша личность делает Вас уникальным, индивидуальность бренда - это особый соус Вашего бизнеса, который отличает от всех остальных. Проще говоря, мы сделаем ментальную оболочку продукта или услуги.
+                </p>
+            </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon  service-icon--illustration">
+                <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h4">Illustration</h3>
+                <p>
+                Иллюстрация - отличный атрибут для создания образа, который добавляет к сайту элемент доступности. Наши художники и дизайнеры создают эти образы, которые полны индивидуальности и настроены в соответствии с тоном Вашего бренда и выделяет его из толпы.
+                </p>
+            </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon  service-icon--web-design">
+                <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h4">UI/UX Design</h3>
+                <p>
+                Наши веб-дизайнеры смогут придать удивительную, анимированную, интерактивную атмосферу сайту, обеспечив комфортное чувство потенциальным клиентам для ознакомления с Вашей продукцией или услугой.
+                </p>
+            </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--product-strategy">
+                <i class="fab fa-grav"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h4">Back-End development</h3>
+                <p>
+                Чем занимается наш backend-разработчик? Он специализируется на обслуживании backend части веб-сайта. Проще говоря, проектирует архитектуру кода, разрабатывает функционал, осуществляет непрерывную интеграцию данных с БД, приложений и прочего.
+                </p>
+            </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon  service-icon--ui-design">
+                <i class="fab fa-js-square"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h4">Front-End development</h3>
+                <p>
+                Наш frontend-разработчик хорошо знает JsvaScript, разбирается во фреймворках и библиотеках, составляет SQL-запросы и понимает принципы UI/UX-проектирования, адаптивной и отзывчивой верстки, кросс-браузерности.
+                </p>
+            </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--mobile-dev">
+                <i class="fas fa-plane-departure"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h4">SEO</h3>
+                <p>
+                SEO-специалист - это человек, который занимается продвижением Вашего веб-ресурса в поисковых системах. Наш SEO-специалист знает алгоритмы поисковых систем, и в соответствии с ними проводит свою работу, разбирается в области интернет-маркетинга и рекламы.
+                </p>
+            </div>
+        </div>
+    </div> <!-- end services-list -->
+</section> <!-- end s-services -->
+
+
+<!-- works -->
+<section id='works' class="s-works">
+
+    <div class="row_b section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Портфолио</h3>
+            <h1 class="display-1">Представляем ознакомиться с некоторыми нашими работами, которые мы рады показать Вам.</h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row_b masonry-wrap">
+        <div class="masonry">
+            <div class="masonry__brick" data-aos="fade-up">
+                <div class="item-folio">
+                    <div class="item-folio__thumb">
+                        <a href="../../static/images/portfolio/gallery/g_portfolio_1.jpg" class="thumb-link" title="Voodoo Mobile" data-size="1050x700">
+                            <img src="../../static/images/portfolio/portfolio_1.jpg"
+                                 srcset="../../static/images/portfolio/portfolio_1.jpg 1x, ../../static/images/portfolio/portfolio_1_2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Voodoo Mobile
+                        </h3>
+                        <p class="item-folio__cat">
+                            Интернет-магазин мобильных телефонов и аксессуаров в Москве
+                        </p>
+                    </div>
+                    <a href="http://www.voodoomobile.com/" class="item-folio__project-link" title="Нажмите для перехода">
+                        Ссылка на ресурс
+                    </a>
+                    <div class="item-folio__caption">
+                        <p>Интернет-магазин - это отличная идея поднять свои продажи за счет удобного и многофункционального сервиса</p>
+                    </div>
+                </div>
+            </div> <!-- end portfolio_1 -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+                <div class="item-folio">
+                    <div class="item-folio__thumb">
+                        <a href="../../static/images/portfolio/gallery/g_portfolio_5.jpg" class="thumb-link" title="CW_group" data-size="500x500">
+                            <img src="../../static/images/portfolio/portfolio_5.jpg"
+                                 srcset="../../static/images/portfolio/portfolio_5.jpg 1x, ../../static/images/portfolio/portfolio_5_2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Cleaning and wash
+                        </h3>
+                        <p class="item-folio__cat">
+                            Интернет-магазин по продаже уборочной техники
+                        </p>
+                    </div>
+                    <a href="#" class="item-folio__project-link" title="Нажмите для перехода">
+                        Ссылка на ресурс
+                    </a>
+                    <div class="item-folio__caption">
+                        <p></p>
+                    </div>
+                </div>
+            </div> <!-- end portfolio_2 -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb">
+                        <a href="../../static/images/portfolio/gallery/g_portfolio_3.jpg" class="thumb-link" title="Arti Coub" data-size="564x1820">
+                            <img src="../../static/images/portfolio/portfolio_3.jpg"
+                                 srcset="../../static/images/portfolio/portfolio_3.jpg 1x, ../../static/images/portfolio/portfolio_3_2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Arti Coub
+                        </h3>
+                        <p class="item-folio__cat">
+                            Компания предоставляет услуги по проектированию интерьера для недвижимости в Москве
+                        </p>
+                    </div>
+                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        Ссылка на ресурс
+                    </a>
+                    <div class="item-folio__caption">
+                        <p>Arti Coub предоставит Вам услуги по созданию детальных планов помещений любой сложности с отличительным дизайном</p>
+                    </div>
+                </div>
+            </div> <!-- end portfolio_3 -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+                <div class="item-folio">
+                    <div class="item-folio__thumb">
+                        <a href="../../static/images/portfolio/gallery/g_portfolio_4.jpg" class="thumb-link" title="Bagrov" data-size="564x1768">
+                            <img src="../../static/images/portfolio/portfolio_4.jpg"
+                                 srcset="../../static/images/portfolio/portfolio_4.jpg 1x, ../../static/images/portfolio/portfolio_4_2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Bagrov-org
+                        </h3>
+                        <p class="item-folio__cat">
+                            Сайт-визитка сервиса, который предоставляет услуги по аренде специальной техники
+                        </p>
+                    </div>
+                    <a href="#" class="item-folio__project-link" title="Project link">
+                        Ссылка на проект
+                    </a>
+                    <div class="item-folio__caption">
+                        <p>Когда человек попадает на подобный ресурс, он должен сразу понять, какие услуги предоставляет компания, что продает, чем занимается. Подобный веб-ресурс делает это отлично</p>
+                    </div>
+                </div>
+            </div> <!-- end portfolio_4 -->
+
+            <div class="masonry__brick" data-aos="">
+                <div class="item-folio">
+                    <div class="item-folio__thumb">
+                        <a href="../../static/images/portfolio/gallery/g_portfolio_2.jpg" class="thumb-link" title="Sally Green" data-size="564x1521">
+                            <img src="../../static/images/portfolio/portfolio_2.jpg"
+                                 srcset="../../static/images/portfolio/portfolio_2.jpg 1x, ../../static/images/portfolio/portfolio_2_2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Sally Green
+                        </h3>
+                        <p class="item-folio__cat">
+                            Он-лайн магазин по продаже кофе и кофейных напитков
+                        </p>
+                    </div>
+                    <a href="#" class="item-folio__project-link" title="Project link">
+                        Ссылка на ресурс
+                    </a>
+                    <div class="item-folio__caption">
+                        <p>Кофейный интернет-магазин позволяет клиенту просматривать ассортимент продуктов и услуг Sally Green, фотографии, а также информацию о вкусовых характеристиках продукта и ценах.</p>
+                    </div>
+                </div>
+            </div> <!-- end portfolio_5 -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+                <div class="item-folio">
+                    <div class="item-folio__thumb">
+                        <a href="../../static/images/portfolio/gallery/g_portfolio_6.jpg" class="thumb-link" title="СПЕЦТАРА" data-size="564x1456">
+                            <img src="../../static/images/portfolio/portfolio_6.jpg"
+                                 srcset="../../static/images/portfolio/portfolio_6.jpg 1x, ../../static/images/portfolio/portfolio_6_2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            СПЕЦТАРА
+                        </h3>
+                        <p class="item-folio__cat">
+                            Landing page
+                        </p>
+                    </div>
+                    <a href="#" class="item-folio__project-link" title="Project link">
+                        Ссылка на ресурс
+                    </a>
+                    <div class="item-folio__caption">
+                        <p>Если вы проводите рекламную кампанию с четким посылом, выходите с каким-то конкретным предложением к потребителям, и вам нужно, чтобы человек быстро произвел необходимые вам действия, то Вы должны использовать Landing Page.</p>
+                    </div>
+                </div>
+            </div> <!-- end portfolio_6 -->
+        </div>
+    </div>
+</section>
+
+<section id='products' class="s-products">
+    <div class="row_b section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">То, что мы можем предложить</h3>
+            <h1 class="display-1">Для более детальной информации и составления технического задания обращайтесь по телефону или пишите на почту</h1>
+        </div>
+    </div>
+    <br><br>
+    <div class="row_b active-with-click">
+        {% for  product_image in  products_images  %}
+            {% include 'landing/product_item.html' %}
+        {% endfor %}
+    </div>
+</section> <!-- end s-works -->
+
+<!-- stats -->
+<section id="stats" class="s-stats">
+    <div class="row_b stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+        <div class="col-block stats__col ">
+            <div class="stats__count">3</div>
+            <h5>Полученных наград</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">+<i class="fas fa-infinity"></i></div>
+            <h5>Чашек кофе</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">28</div>
+            <h5>Завершенных проектов</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">37</div>
+            <h5>Счастливых клиентов</h5>
+        </div>
+    </div>
+</section> <!-- end s-stats -->
+
+<!-- photoswipe background -->
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                "Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+            "Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- preloader -->
+<div id="preloader">
+    <div id="loader">
+    </div>
+</div>
+
+{% endblock %}

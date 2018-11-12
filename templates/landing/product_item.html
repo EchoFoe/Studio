@@ -1,0 +1,61 @@
+<form class="dl-horizontal form-group col-md-4 col-sm-6 col-xs-12">
+        <article class="material-card Teal">
+                <h2>
+                    <span>{{ product_image.Product.name}}</span>
+                    <strong>
+{#                        <i class="fas fa-money-bill"></i>#}
+                        От {{ product_image.Product.price }} <i class="fas fa-ruble-sign"></i>
+                    </strong>
+                </h2>
+                <div class="mc-content">
+                    <div class="img-container">
+                        <img class="img-responsive" src="{{ product_image.image.url }}">
+                    </div>
+                    <div class="mc-description">
+                        {{ product_image.Product.description|truncatechars_html:100 }}
+                    </div>
+                </div>
+                <a class="mc-btn-action">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="mc-footer">
+                    <h4>
+                    {% if product_image.Product.discount %}Скидка при заказе через наш сайт: {{ product_image.Product.discount }} <i class="fas fa-percentage"></i>
+                    {% endif %}
+                    </h4>
+{#                    <a href="{% url 'product' product_image.Product.id %}" class="item-folio__product-link" title="">#}
+{#                        Подробнее...#}
+{#                    </a>#}
+
+
+{#                    <button class="button_item type1">#}
+{#                    <i class="fas fa-shopping-cart"></i>#}
+{#                    </button>#}
+{##}
+{#                    <button class="button_item type1">#}
+{#                    <a href="{% url 'product' product_image.Product.id %}" class="button_item type1">#}
+{#                        Подробнее#}
+{#                    </a>#}
+{#                        Подробнее#}
+{#                    </button>#}
+
+
+                    <a href="{% url 'product' product_image.Product.id %}" class="custom-btn btn-13" title="подробнее">
+                        Подробнее...
+                    </a>
+{#                    <a href="{% url 'product' product_image.Product.id %}" class="custom-btn btn-13" title="подробнее">#}
+{#                        Купить#}
+{#                    </a>#}
+{#                    <div class="basicBox">#}
+{#                    Подробнее...#}
+{#                    <svg width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">#}
+{#                    <rect x='0' y='0' fill='none' width='130' height='65'></rect>#}
+{#                    </svg>#}
+{#                    </div>#}
+{#                    <a class="fa fa-fw fa-twitter"></a>#}
+{#                    <a class="fa fa-fw fa-linkedin"></a>#}
+{#                    <a class="fa fa-fw fa-google-plus"></a>#}
+                </div>
+            </article>
+</form>
+
